@@ -19,6 +19,7 @@ def consolidate_cart(cart)
     new_array << cart[turn]
     return new_array
   end
+end
 
 
   #
