@@ -1,14 +1,10 @@
 def find_item_by_name_in_collection(name, collection)
-  count = 0
-  needed_item = {}# Implement me first!
+  count = 0# Implement me first!
   while count < collection.leghth do
     if collection[count][:item]== name
-      needed_item = collection[count]
+      return= collection[count]
   end
   count += 1
-  end
-end
-  needed_item
 end
 end# Consult README for inputs and outputs
 
