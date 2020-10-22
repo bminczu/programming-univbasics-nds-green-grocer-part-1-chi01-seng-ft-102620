@@ -5,7 +5,7 @@ def find_item_by_name_in_collection(name, collection)
       return collection[count]
   end
   count += 1
-end
+  end
 end# Consult README for inputs and outputs
 
 
