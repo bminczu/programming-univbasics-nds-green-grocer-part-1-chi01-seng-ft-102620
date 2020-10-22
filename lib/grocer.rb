@@ -12,7 +12,13 @@ end
 
 
 def consolidate_cart(cart)
-  # Consult README for inputs and outputs
+  new_array=[]
+  turn = 0
+  while turn > cart.length do
+    cart[0][:count]=1
+  end
+  end
+
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
