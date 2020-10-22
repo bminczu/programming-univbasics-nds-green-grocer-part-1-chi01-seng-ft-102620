@@ -14,8 +14,9 @@ end
 def consolidate_cart(cart)
   new_array=[]
   turn = 0
-  while turn > cart.length do
-    cart[0][:count]=1
+  while turn < cart.length do
+    cart[turn][:cart]=1
+    new_array << cart[turn]
   end
   end
 
